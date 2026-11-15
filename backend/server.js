@@ -16,7 +16,7 @@ app.get("/name", (req, res) => {
 
 // Backend homepage
 app.get("/", (req, res) => {
-  res.send("Nithin's Todo App Backend is Running!");
+  res.redirect("https://nithin-todo-app.vercel.app/");
 });
 
 // Todo schema
